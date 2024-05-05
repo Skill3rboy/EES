@@ -1,0 +1,8 @@
+A:
+Button: PC13
+LED: PA5
+B:
+Data Register 01 -> Data Output register 1
+Rcc_ABH1ENR Clock anmachen
+C:
+Bus-AHB1

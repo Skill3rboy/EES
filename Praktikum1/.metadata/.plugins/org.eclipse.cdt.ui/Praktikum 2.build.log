@@ -1,0 +1,17 @@
+11:45:17 **** Incremental Build of configuration Debug for project Praktikum 2 ****
+make -j8 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f446retx.d" -MT"Startup/startup_stm32f446retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f446retx.o" "../Startup/startup_stm32f446retx.s"
+arm-none-eabi-gcc -o "Praktikum 2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\fabia\Documents\Studium\SS24\EES\Praktikum1\Praktikum 2\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Praktikum 2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Praktikum 2.elf
+ 
+arm-none-eabi-size  Praktikum\ 2.elf 
+arm-none-eabi-objdump -h -S Praktikum\ 2.elf  > "Praktikum 2.list"
+   text	   data	    bss	    dec	    hex	filename
+   1936	      0	   1568	   3504	    db0	Praktikum 2.elf
+Finished building: default.size.stdout
+ 
+Finished building: Praktikum 2.list
+ 
+
+11:45:18 Build Finished. 0 errors, 0 warnings. (took 782ms)
+

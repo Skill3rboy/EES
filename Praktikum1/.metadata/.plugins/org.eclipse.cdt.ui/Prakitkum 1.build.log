@@ -1,0 +1,10 @@
+11:17:41 **** Incremental Build of configuration Debug for project Prakitkum 1 ****
+make -j8 all 
+arm-none-eabi-size  Prakitkum\ 1.elf 
+   text	   data	    bss	    dec	    hex	filename
+    936	      0	   1568	   2504	    9c8	Prakitkum 1.elf
+Finished building: default.size.stdout
+ 
+
+11:17:42 Build Finished. 0 errors, 0 warnings. (took 384ms)
+

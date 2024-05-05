@@ -1,0 +1,4 @@
+../Src/main.c:27:6:delay	16	static
+../Src/main.c:34:6:oneA	8	static
+../Src/main.c:47:6:oneB	8	static
+../Src/main.c:64:5:main	8	static
